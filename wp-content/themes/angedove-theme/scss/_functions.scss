@@ -1,0 +1,48 @@
+//Arrows
+@mixin arrow_up_main(){
+  @include breakpoint(xmedium){
+    content:'';
+    width:42px;
+    height:108px;
+    position:absolute;
+    background:url('../img/arrow-up.png');
+  }
+}
+
+@mixin arrow_up_sub(){
+  @include breakpoint(xmedium){
+    content:'';
+    width:42px;
+    height:108px;
+    background:url('../img/arrow-up.png');
+    position:absolute;
+    background-position: -42px 0;
+  }
+}
+
+
+@mixin arrow_right_sub(){
+ @include breakpoint(medium){
+   content:'';
+   width:220px;
+   height:72px;
+   position:absolute;
+   background:url('../img/arrow-right-sub.png');
+ }
+}
+
+//Border radius
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin y-center(){
+  position:absolute;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  transform:translateY(-50%);
+}
