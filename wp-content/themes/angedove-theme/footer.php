@@ -54,9 +54,11 @@
 
                             <ul class="no-bullet menu menu-footer horizontal">
 
-                                <?php wp_list_pages(
+                                <?php 
 
-                                    array('title_li' => '', 'sort_column' => 'menu_order' , 'exclude' => '51')
+                                wp_list_pages(
+
+                                    array('title_li' => '', 'sort_column' => 'menu_order' , 'exclude' => '10,51,70' )
 
                                 );
 
