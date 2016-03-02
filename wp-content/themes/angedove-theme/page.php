@@ -16,8 +16,7 @@ get_header(); ?>
 <?php
 get_template_part("partials/banner");
 ?>
-
-
+ 
 <?php
 	// Start the loop.
 	while ( have_posts() ) : the_post();
@@ -28,8 +27,7 @@ get_template_part("partials/banner");
 
 		// End of the loop.
 	endwhile;
-?>
-
+?> 
 
 <?php get_footer(); ?>
 
