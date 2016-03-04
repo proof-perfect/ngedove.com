@@ -58,7 +58,7 @@
 
                                 wp_list_pages(
 
-                                    array('title_li' => '', 'sort_column' => 'menu_order' , 'exclude' => '10,51,70' )
+                                    array('title_li' => '', 'sort_column' => 'menu_order' , 'exclude' => '10,51,70,84,94,100' )
 
                                 );
 

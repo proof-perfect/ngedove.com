@@ -21,12 +21,7 @@ get_header();
 		        <div class="meta-data">
 		           
 		        </div>
-		        <div class="meta-author">
-		            <div class="photo"><img src="<?php echo get_template_directory_uri() ?>/img/author-dove.png" alt=""></div>
-		            <div class="meta">
-		                <strong>Posted by:</strong> <br><?php the_author(); ?><br><?php the_date(); ?>
-		            </div>
-		        </div>
+		       
 		        <div class="post-entry">
 		         <?php the_content(); ?>
 		        </div>
@@ -34,6 +29,19 @@ get_header();
 		</ul>
      </div>
     <div class="medium-5 large-4 columns">
+  		 <div class="meta-author">
+            <div class="photo"><img src="<?php echo get_template_directory_uri() ?>/img/author-dove.png" alt=""></div>
+            <div class="meta">
+                <strong>Posted by:</strong> <br><?php the_author(); ?><br><?php the_date(); ?>
+            </div>
+        </div>
+
+        <br><br>
+
+        <hr>
+
+ 
+
         <?php  get_sidebar(); ?>
     </div>
 

@@ -10,7 +10,7 @@ get_header();
 <div class="row">
      <?php 
 
-     	$myposts = get_posts('');
+      $myposts = get_posts('');
 foreach($myposts as $post) :
 setup_postdata($post);
 ?>
