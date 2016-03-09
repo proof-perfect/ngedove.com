@@ -860,3 +860,7 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
 
 
+
+
+add_filter('widget_text', 'do_shortcode');
+
